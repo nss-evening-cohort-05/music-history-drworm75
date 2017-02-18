@@ -80,7 +80,7 @@ h3 {
 	max-width: 100px;
 }
 
-.song-info {
+#song-info {
 	border: 2px solid black;
 	width: 78%;
 	background-color: #FEFAC0;
