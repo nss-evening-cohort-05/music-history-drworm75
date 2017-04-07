@@ -1,0 +1,35 @@
+{
+    "default-music": [
+        {
+            "title": "Legs",
+            "artist": "ZZ Top",
+            "album": "Eliminator",
+            "genre": "Classic Rock"
+        },
+        {
+            "title": "The Logical Song",
+            "artist": "Supertramp",
+            "album": "Breakfast in America",
+            "genre": "Prog Rock"
+        },
+        {
+            "title": "Another Brick in the Wall",
+            "artist": "Pink Floyd",
+            "album": "The Wall",
+            "genre": "Classic Rock"
+        },
+        {
+            "title": "Welcome to the Jungle",
+            "artist": "Guns & Roses",
+            "album": "Appetite for Destruction",
+            "genre": "Heavy Metal"
+        },
+        {
+            "title": "Ironic",
+            "artist": "Alanis Morisette",
+            "album": "Jagged Little Pill",
+            "genre": "Post-grunge"
+        }
+    ]
+}
+

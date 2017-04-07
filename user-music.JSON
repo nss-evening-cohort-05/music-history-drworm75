@@ -1,0 +1,35 @@
+{
+    "user-music": [
+        {
+            "title": "In the Car",
+            "artist": "Barenaked Ladies",
+            "album": "Stunt",
+            "genre": "Jangle Pop"
+        },
+        {
+            "title": "Good Morning Tuson",
+            "artist": "Jonathan Coulton",
+            "album": "Artifical Heart",
+            "genre": "Geek Rock"
+        },
+        {
+            "title": "I'd Rather Ride Around with You",
+            "artist": "Reba",
+            "album": "What If it's You",
+            "genre": "Country"
+        },
+        {
+            "title": "Psycho Killer",
+            "artist": "Talking Heads",
+            "album": "77",
+            "genre": "New Wave"
+        },
+        {
+            "title": "Don't Let's Start",
+            "artist": "They Might Be Giants",
+            "album": "They Might Be Giants",
+            "genre": "Experimental Rock"
+        }
+    ]
+}
+
