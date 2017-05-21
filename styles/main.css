@@ -1,0 +1,152 @@
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+p {
+  line-height: .5em; }
+
+h3 {
+  padding-left: 50px;
+  color: #785616;
+  font-size: 2em;
+  margin: 10px 0 3px 0; }
+
+.page-container-songs {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between; }
+
+.nav-bar {
+  background-color: #FFB4B0;
+  width: 90%;
+  margin: 2px auto 5px auto;
+  border: 2px solid black; }
+
+.song-nav-bar {
+  margin: 0 auto 5px auto; }
+
+.song-nav-bar ul {
+  margin-top: 2px; }
+
+.lines-between li {
+  display: inline-block;
+  list-style: none;
+  /*margin-left: 8px;*/
+  padding: 0 10px 0 10px;
+  border-left: 2px solid black; }
+
+.lines-between li:nth-of-type(1) {
+  border-left: none; }
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+.columns input {
+  margin: 5px; }
+
+.song-properties {
+  background-color: #4DD7FA;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: 2px solid black;
+  padding-left: 5px; }
+
+.song-properties input {
+  max-width: 100px; }
+
+#song-info {
+  border: 2px solid black;
+  width: 78%;
+  background-color: #FEFAC0; }
+
+#song-info table {
+  padding: 10px; }
+
+#song-info th {
+  text-align: left;
+  font-size: 2em;
+  color: #785616; }
+
+#song-info td {
+  font-size: 1.5em;
+  padding: 10px 10px 10px 10px;
+  border-right: 1px solid black;
+  text-align: center;
+  vertical-align: middle; }
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background: #4dd7fa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4dd7fa), to(#4dd7fa));
+  background: -moz-linear-gradient(top, #4dd7fa, #4dd7fa);
+  background: linear-gradient(to bottom, #4dd7fa, #4dd7fa);
+  text-shadow: #591717 1px 1px 1px;
+  font: normal normal bold 15px arial;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0 3px 3px; }
+
+.button:hover,
+.button:focus {
+  background: #5cffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5cffff), to(#5cffff));
+  background: -moz-linear-gradient(top, #5cffff, #5cffff);
+  background: linear-gradient(to bottom, #5cffff, #5cffff);
+  color: #ffffff;
+  text-decoration: none; }
+
+.button:active {
+  background: #2e8196;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e8196), to(#4dd7fa));
+  background: -moz-linear-gradient(top, #2e8196, #4dd7fa);
+  background: linear-gradient(to bottom, #2e8196, #4dd7fa); }
+
+.delete-button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 6px 7px;
+  border: 0px solid #ffffff;
+  border-radius: 6px;
+  background: #f01313;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f01313), to(#f01313));
+  background: -moz-linear-gradient(top, #f01313, #f01313);
+  background: linear-gradient(to bottom, #f01313, #f01313);
+  text-shadow: #591717 1px 1px 1px;
+  font: normal normal bold 15px arial;
+  color: #ffffff;
+  text-decoration: none; }
+
+.delete-button:hover,
+.delete-button:focus {
+  background: #ff1717;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff1717), to(#ff1717));
+  background: -moz-linear-gradient(top, #ff1717, #ff1717);
+  background: linear-gradient(to bottom, #ff1717, #ff1717);
+  color: #ffffff;
+  text-decoration: none; }
+
+.delete-button:active {
+  background: #900b0b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#900b0b), to(#f01313));
+  background: -moz-linear-gradient(top, #900b0b, #f01313);
+  background: linear-gradient(to bottom, #900b0b, #f01313); }
+
+/*#song-info td {
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}*/
