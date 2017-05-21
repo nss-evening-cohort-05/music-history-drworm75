@@ -9,15 +9,19 @@
 	<!-- Personal Style Tags -->
 	<link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
+<body ng-app="MusicHistory">
+	<div ng-include="'partials/navbar.html'">
+		
 
-	<div class="nav-bar lines-between">
+
+	</div>
+<!-- 	<div class="nav-bar lines-between">
 		<ul>
 			<li><a href="#">View Music</a></li>
 			<li><a href="#">Add Music</a></li>
 			<li><a href="#">Profile</a></li>
 		</ul>
-	</div>
+	</div> -->
 
 	<div class="page-container-songs">
 		
@@ -126,6 +130,7 @@
 	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./lib/bower_components/angular-route/angular-route.min.js"></script>
 	<!-- Personal Script Tags -->
 	<script type="text/javascript" src="./javascripts/main.js"></script>
 

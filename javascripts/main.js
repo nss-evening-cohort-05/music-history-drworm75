@@ -1,3 +1,8 @@
+var app = angular.module("MusicHistory", ["ngRoute"]);
+
+
+
+
 // Commented out old code once we started learning Angular!
 
 // function buildDom(music) { 
